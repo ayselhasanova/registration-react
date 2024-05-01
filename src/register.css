@@ -1,0 +1,71 @@
+body {
+    background: url(./assets/adnsu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
+    line-height: 0.7;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.187)
+}
+
+.reg-container {
+    background-color: #ffffffc1;
+    box-shadow: 5px 5px 5px #00000068;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input {
+    width: 100%;
+    height: 27px;
+}
+
+.info{
+   justify-content: space-between; 
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(116, 137, 205, 0.536);
+    margin-top: 40px;
+}
+
+.error{
+    color: red;
+    margin-top: 5px;
+}
